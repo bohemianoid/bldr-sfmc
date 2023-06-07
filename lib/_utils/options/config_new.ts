@@ -3,32 +3,32 @@ module.exports = {
     instance: {
         type: 'input',
         describe: 'SFMC Instance Name',
-        prompt: 'always',
+        prompt: 'if-no-arg',
     },
     configurationType: {
         type: 'list',
         describe: `Installed Package/Authentication Type`,
         choices: ['Server-to-Server', 'Web App'],
-        prompt: 'always',
+        prompt: 'if-no-arg',
     },
     parentMID: {
         type: 'input',
         describe: 'Parent MID',
-        prompt: 'always',
+        prompt: 'if-no-arg',
     },
     apiClientId: {
         type: 'input',
         describe: 'API Client ID',
-        prompt: 'always',
+        prompt: 'if-no-arg',
     },
     apiClientSecret: {
         type: 'input',
         describe: 'API Client Secret',
-        prompt: 'always',
+        prompt: 'if-no-arg',
     },
     authURI: {
         type: 'input',
         describe: 'Authentication URI',
-        prompt: 'always',
+        prompt: 'if-no-arg',
     },
 };

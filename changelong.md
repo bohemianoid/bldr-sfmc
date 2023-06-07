@@ -1,3 +1,8 @@
+**2023-06-07**
+
+-   Added/Updated Features:
+    -   New: Added the ability to run `bldr config -n` non interactive by providing the config parameters as flags, e.g. `bldr config -n --instance="SFMC Instance Name"`
+
 **2022-07-13**
 
 -   Added/Updated Features:
